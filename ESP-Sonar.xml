@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/ccadic/Documents/Arduino/ESP-Sonar/ESP-Sonar.sch</source>
+    <date>13/02/2017 14:05:41</date>
+    <tool>Eeschema 4.0.4-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ESP-Sonar.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>NodeMCU_0.9</value>
+      <footprint>nodemcu:NodeMCU_0.9</footprint>
+      <libsource lib="nodemcu" part="NodeMCU_0.9"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A194F7</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2.2k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A195D8</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A19620</tstamp>
+    </comp>
+    <comp ref="OLED0.96_1">
+      <value>Oled96</value>
+      <footprint>nodemcu:Oled96</footprint>
+      <libsource lib="oled096" part="Oled96"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A1AE19</tstamp>
+    </comp>
+    <comp ref="GPIO1">
+      <value>GPIO-Ports</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Part">-</field>
+        <field name="Family">Connector</field>
+      </fields>
+      <libsource lib="ESP-Sonar-cache" part="HEADER-1x04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A1B320</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A1B6DD</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH_SMALL_H</value>
+      <libsource lib="device" part="SW_PUSH_SMALL_H"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A1B843</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A1BB72</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_PUSH_SMALL_H</value>
+      <libsource lib="device" part="SW_PUSH_SMALL_H"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A1BB7B</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A1C2D5</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_PUSH_SMALL_H</value>
+      <libsource lib="device" part="SW_PUSH_SMALL_H"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A1C2DE</tstamp>
+    </comp>
+    <comp ref="HC-SR04">
+      <value>HC-SR04</value>
+      <footprint>HC-SR04:HC-SR04</footprint>
+      <libsource lib="hc-sr04" part="HC-SR04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A1D05A</tstamp>
+    </comp>
+    <comp ref="PWR_SRC1">
+      <value>Power SRC</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Part">-</field>
+        <field name="Family">Connector</field>
+      </fields>
+      <libsource lib="ESP-Sonar-cache" part="HEADER-1x04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A1F43C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="hc-sr04" part="HC-SR04">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HC-SR04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="input"/>
+        <pin num="2" name="TRIG" type="input"/>
+        <pin num="3" name="ECHO" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP-Sonar-cache" part="HEADER-1x04">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER-1x04</field>
+        <field name="Part">-</field>
+        <field name="Family">Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nodemcu" part="NodeMCU_0.9">
+      <description>NodeMCU 0.9</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X15</fp>
+        <fp>Pin_Header_Angled_1X15</fp>
+        <fp>Socket_Strip_Straight_1X15</fp>
+        <fp>Socket_Strip_Angled_1X15</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NodeMCU_0.9</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="BiDi"/>
+        <pin num="2" name="RSV" type="NotConnected"/>
+        <pin num="3" name="RSV" type="NotConnected"/>
+        <pin num="4" name="RSV" type="NotConnected"/>
+        <pin num="5" name="RSV" type="NotConnected"/>
+        <pin num="6" name="RSV" type="NotConnected"/>
+        <pin num="7" name="RSV" type="NotConnected"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="3V3" type="power_in"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="3V3" type="power_in"/>
+        <pin num="12" name="EN" type="3state"/>
+        <pin num="13" name="RST" type="input"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="5V" type="power_in"/>
+        <pin num="16" name="3V3" type="power_in"/>
+        <pin num="17" name="GND" type="power_in"/>
+        <pin num="18" name="TX" type="3state"/>
+        <pin num="19" name="RX" type="3state"/>
+        <pin num="20" name="D8" type="BiDi"/>
+        <pin num="21" name="D7" type="BiDi"/>
+        <pin num="22" name="D6" type="BiDi"/>
+        <pin num="23" name="D5" type="BiDi"/>
+        <pin num="24" name="GND" type="power_in"/>
+        <pin num="25" name="3V3" type="power_in"/>
+        <pin num="26" name="D4" type="BiDi"/>
+        <pin num="27" name="D3" type="BiDi"/>
+        <pin num="28" name="D2" type="BiDi"/>
+        <pin num="29" name="D1" type="BiDi"/>
+        <pin num="30" name="D0" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="oled096" part="Oled96">
+      <fields>
+        <field name="Reference">LCD</field>
+        <field name="Value">Oled96</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="input"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="Vcc" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH_SMALL_H">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH_SMALL_H</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="nodemcu">
+      <uri>C:\KiCadFootprint\nodemcu.lib</uri>
+    </library>
+    <library logical="oled096">
+      <uri>C:\KiCadFootprint\oled96\oled096.lib</uri>
+    </library>
+    <library logical="hc-sr04">
+      <uri>C:\KiCadFootprint\adamclaassen-kicad-parts-master\hc-sr04.lib</uri>
+    </library>
+    <library logical="ESP-Sonar-cache">
+      <uri>C:\Users\ccadic\Documents\Arduino\ESP-Sonar\ESP-Sonar-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GPIO16">
+      <node ref="U1" pin="30"/>
+      <node ref="GPIO1" pin="1"/>
+    </net>
+    <net code="2" name="Trig">
+      <node ref="U1" pin="22"/>
+      <node ref="HC-SR04" pin="2"/>
+    </net>
+    <net code="3" name="ECHO">
+      <node ref="HC-SR04" pin="3"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="4" name="GPIO15">
+      <node ref="GPIO1" pin="2"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="5" name="Analog">
+      <node ref="GPIO1" pin="3"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="6" name="Reset">
+      <node ref="GPIO1" pin="4"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="7" name="D4">
+      <node ref="U1" pin="26"/>
+      <node ref="R4" pin="2"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="8" name="D5">
+      <node ref="R5" pin="2"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="9" name="3.3v">
+      <node ref="U1" pin="9"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="HC-SR04" pin="4"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U1" pin="14"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="11" name="3.3v_P">
+      <node ref="U1" pin="16"/>
+      <node ref="PWR_SRC1" pin="2"/>
+      <node ref="PWR_SRC1" pin="4"/>
+    </net>
+    <net code="13" name="GND_P">
+      <node ref="U1" pin="10"/>
+      <node ref="PWR_SRC1" pin="1"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="17" name="5volts">
+      <node ref="PWR_SRC1" pin="3"/>
+      <node ref="HC-SR04" pin="1"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="21" name="Net-(OLED0.96_1-Pad1)">
+      <node ref="U1" pin="28"/>
+      <node ref="OLED0.96_1" pin="1"/>
+    </net>
+    <net code="22" name="D7">
+      <node ref="U1" pin="21"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="29" name="D3">
+      <node ref="U1" pin="27"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="30" name="Net-(OLED0.96_1-Pad3)">
+      <node ref="OLED0.96_1" pin="3"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="31" name="Net-(OLED0.96_1-Pad2)">
+      <node ref="OLED0.96_1" pin="2"/>
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="32" name="Net-(OLED0.96_1-Pad4)">
+      <node ref="OLED0.96_1" pin="4"/>
+      <node ref="U1" pin="24"/>
+    </net>
+  </nets>
+</export>
